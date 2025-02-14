@@ -6,7 +6,7 @@ import cv2
 from sentence_transformers import util
 from PIL import Image
 from skimage import metrics
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 import comfy.model_management as model_management
 
 def SSIM(imgPath0, imgPath1):
